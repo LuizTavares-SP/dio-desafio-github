@@ -1,0 +1,31 @@
+GIT e GITHUB
+Comandos:
+Repositório Local:
+- git init (inicializa um projeto na pasta)
+ls -a (mostra detalhe na pasta)
+git config --global user.email “luizmtavares@hotmail.com”
+git config --global user.nickname “Luiz”
+
+Arquivo tipo Markdown = .md
+# título nível 1
+## título nível 2
+### título nível 3
+#### título nível 4
+##### título nível 5
+###### título nível 6
+
+- git add *
+- git commit -m "Commit inicial"
+
+- git status (verifica o status dos commit´s)
+
+- git config --list (mostra toda a configuração conta e username cadastrado no GIT)
+
+
+
+Repositório na Nuvem (GitHub)
+
+git remote add origin http.... (endereço do repositório criado no GitHub)
+git remote -v (lista os repositórios)
+git push origin master (subir o repositório local para a nuvem)
+git clone http:/.... (clona uma repositório)
